@@ -2,12 +2,28 @@ package edu.kis.vh.nursery;
 
 public class defaultCountingOutRhymer {
 
-    public static final int SIZE = 12;
-    public static final int EMPTY = -1;
+    private static final int SIZE = 12;
+    private static final int EMPTY = -1;
 
-    public static final int ERRORCODE = -1;
-    public static final int MAX = SIZE - 1;
+    private static final int ERRORCODE = -1;
+    private static final int MAX = SIZE - 1;
     private final int[] numbers = new int[SIZE];
+
+    public static int getSIZE() {
+        return SIZE;
+    }
+
+    public static int getEMPTY() {
+        return EMPTY;
+    }
+
+    public static int getERRORCODE() {
+        return ERRORCODE;
+    }
+
+    public static int getMAX() {
+        return MAX;
+    }
 
     public int getTotal() {
         return total;
@@ -40,4 +56,11 @@ public class defaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int[] getNumbers() {
+        return numbers;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
 }

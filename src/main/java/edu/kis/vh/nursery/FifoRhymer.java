@@ -16,4 +16,12 @@ public class FifoRhymer extends defaultCountingOutRhymer {
 
         return ret;
     }
+
+    public defaultCountingOutRhymer getTemp() {
+        return temp;
+    }
+
+    public void setTemp(defaultCountingOutRhymer temp) {
+        this.temp = temp;
+    }
 }
