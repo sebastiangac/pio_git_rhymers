@@ -4,6 +4,7 @@ public class FifoRhymer extends defaultCountingOutRhymer {
 
     private defaultCountingOutRhymer temp = new defaultCountingOutRhymer();
 
+
     @Override
     public int countOut() {
         while (!isNumbersClear())
