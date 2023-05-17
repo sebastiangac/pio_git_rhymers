@@ -19,7 +19,7 @@ class RhymersDemo {
             for (int j = 0; j < 3; j++)
                 rhymers[j].addInValuesToNumbers(i);
 
-        
+
         Random rn = new Random();
         for (int i = 1; i < 15; i++)
             rhymers[3].addInValuesToNumbers(rn.nextInt(20));
